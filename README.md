@@ -51,23 +51,15 @@ Now in vim, while pressing <span style="color: red;">F1</span> you will fill in 
 
 ### **Extra, for many files**
 
-1. In regular case, just run in directori where you need to add headers to <span style="color: pink;">.c</span> and <span style="color: pink;">.h</span>:
+1. In regular case, just run in directori where you need to add headers to <span style="color: pink;">.c</span> and <span style="color: pink;">.h</span>. Just put in terminal and there will be a magic 🪄:
 
 ```code
-source ~/.zshrc
-./h42
+h42
 ```
+
+<span style="color: grey; font-size: .8rem">This version a little bit raw, and somtimes creating extra files with .h extension, but anyway, its saves a lot of time.</span>
 
 And it should fill in all your headers.
-
-2. but if you was change _Bind command(button)_ from <span style="color: red;">F1</span>
-   --> Open <span style="color: green;">./auto_fill_header.sh</span> and change it inside
-
-```code
-vim "$file" -c 'normal! \<F1>' -c 'wq'
-```
-
-3. Repeat <span style="color: red;">1</span>
 
 Keep swimming, and have fun 👍
 

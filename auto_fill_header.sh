@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for file in *.c; do
-  vim "$file" -c 'normal! \<F1>' -c 'wq'
+for file in *.c *.h; do
+  vim "$file" -c 'Stdheader' -c ':wq'
 done
