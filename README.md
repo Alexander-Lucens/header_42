@@ -35,6 +35,7 @@ git clone https://github.com/Alexander-Luxfero/header_42.git
 
 ```code
 ./set_header.sh
+source ~/.zshrc
 ```
 
 6. If your already bindet for something <span style="color: red;">F1</span>, you can change it, it's in the end of <span style="color: green;">stdheader.vim</span>, it's looks like this:
@@ -53,6 +54,7 @@ Now in vim, while pressing <span style="color: red;">F1</span> you will fill in 
 1. In regular case, just run in directori where you need to add headers to <span style="color: pink;">.c</span> and <span style="color: pink;">.h</span>:
 
 ```code
+source ~/.zshrc
 ./h42
 ```
 
