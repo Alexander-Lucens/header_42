@@ -11,6 +11,6 @@ then
     echo "MAIL="$INTRA_USERNAME@student.42berlin.de"" >> ~/.zshrc
     echo "export MAIL" >> ~/.zshrc
 
-    echo "alias header42='~/.vim/header_42/auto_fill_header.sh'" >> ~/.zshrc
+    echo "alias h42='~/.vim/header_42/auto_fill_header.sh'" >> ~/.zshrc
 fi
 
