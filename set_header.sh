@@ -2,7 +2,7 @@
 # ./set_header.sh
 
 # Set your username
-INTRA_USERNAME=akuzmin
+INTRA_USERNAME=0
 
 if [ ! -z "$USER" ]
 then

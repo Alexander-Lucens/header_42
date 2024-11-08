@@ -1,5 +1,7 @@
 #!/bin/bash
 
-for file in *.c *.h; do
-  vim "$file" -c 'Stdheader' -c ':wq'
+for file in $(find . -type f \( -name "*.c" -o -name "*.h" \)); do
+  if [ -f "$file" ]; then
+    vim "$file" -c 'Stdheader' -c ':wq'
+  fi
 done
